@@ -66,7 +66,7 @@ public class LoginHandler {
             request.setAttribute("message",e.getMessage());
             return "updatepassword";
         }
-        session.setAttribute("message","修改成功，请重新登录");
+        session.setAttribute("message","修改成功，请重新登录!!!");
         return "redirect:/login.jsp";
     }
 }
